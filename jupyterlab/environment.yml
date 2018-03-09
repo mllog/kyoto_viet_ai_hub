@@ -1,0 +1,24 @@
+name: jupyterlab
+channels:
+  - conda-forge
+  - pytorch
+  - defaults
+dependencies:
+  - python=3.6
+  - jupyterlab
+  - ipywidgets
+  - nodejs
+  - numpy
+  - holoviews
+  - pandas
+  - matplotlib
+  - seaborn
+  - scikit-learn
+  - keras
+  - pytorch
+  - pip:
+    - torchvision
+    - opencv-python
+    - jupyter_contrib_nbextensions
+
+
